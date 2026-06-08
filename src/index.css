@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Lato", sans-serif;
+  --font-display: "DM Serif Display", serif;
+
+  --color-brand-saffron: #E8871A;
+  --color-brand-terracotta: #C1440E;
+  --color-brand-cream: #FDF6EC;
+  --color-brand-gold: #D4AF37;
+  --color-brand-dark: #2A1A0E;
+  --color-brand-green: #3A6B35;
+}
+
+:root {
+  --color-saffron: #E8871A;
+  --color-terracotta: #C1440E;
+  --color-cream: #FDF6EC;
+  --color-gold: #D4AF37;
+  --color-dark: #2A1A0E;
+  --color-green: #3A6B35;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: var(--color-cream);
+  color: var(--color-dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+}
