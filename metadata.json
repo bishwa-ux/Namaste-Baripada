@@ -1,0 +1,6 @@
+{
+  "name": "Namaste Baripada",
+  "description": "A high-converting, production-ready restaurant website for Namaste Baripada.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
